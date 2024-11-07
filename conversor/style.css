@@ -1,0 +1,42 @@
+
+.op{
+ background-color: #242424
+  }
+  .principal{
+      width: 500px;
+      background-color:  #121214;
+      border: 5px solid rgb(227, 225, 230);
+      padding: 50px;
+      margin-left: 300px;
+    
+     
+      
+  }
+  .principal h1{
+      color: rgb(251, 255, 8);
+      padding: 25px;
+      margin-left: 65px;
+    
+     
+  }
+  .principal p{
+    color: white;
+    padding: 25px;
+    margin-left: 1px;
+  }
+
+ 
+  .form-select{
+      margin-bottom: 30px;
+  }
+  
+  #rr{
+      margin-top: 30px;
+  }
+  .principal label{
+    color:white
+  }
+.principal{
+    margin-top: 5px;
+    gap: 10px;
+}
