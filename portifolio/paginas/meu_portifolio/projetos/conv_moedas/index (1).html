@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Conversor de moedas</title>
+</head>
+<body>
+    <div class="ballon">
+        <h1>💲Conversor de moedas💲</h1>
+        <div>
+            <p>Selecione a moeda inicial:</p>
+            <select name="moedaInicial" id="moedaInicial" required>
+                <option selected>Selecione uma moeda inicial</option>
+                <option value="0">Dólar americano($)</option>
+                <option value="1">Euro(€)</option>
+                <option value="2">Won sul-coreano(₩)</option>
+                <option value="3">Peso mexicano($)</option>
+                <option value="4">Dólar australiano($)</option>
+            </select>
+        </div>
+        <div>
+            <p>Digite o valor:</p>
+            <input type="number" id="valor" placeholder="Digite o valor" required>
+        </div>
+        <div>
+            <p>Selecione a moeda:</p>
+            <select name="moedas" id="select" required>
+                <option selected>Selecione uma moeda</option>
+                <option value="0">Dólar americano($)</option>
+                <option value="1">Euro(€)</option>
+                <option value="2">Won sul-coreano(₩)</option>
+                <option value="3">Peso mexicano($)</option>
+                <option value="4">Dólar australiano($)</option>
+            </select>
+        </div>
+        <button onclick="calc()">CALCULAR</button>
+        <script src="javascript.js"></script>
+        <div id="s">
+            <p id="result"></p>
+        </div>
+    </div>
+</body>
+</html>
