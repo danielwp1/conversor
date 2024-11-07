@@ -1,0 +1,14 @@
+body {
+    justify-content: center;
+    background-color: #F4F5FB;
+}
+
+
+
+input, button { 
+    border-color: #D1D5DB;
+}
+
+li {
+    background-color: #cc2d2d;
+}
